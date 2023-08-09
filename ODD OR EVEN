@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main(){
+int i,n;
+printf("\nenter the limit");
+scanf("\n%d",&n);
+for(i=0;i<n;i++)
+{
+printf("\n%d",i);
+i=i+2;
+}
+for(i=1;i<n;i++)
+{
+printf("\n%d",i);
+i=i+2;
+}
+return 0;
+}
